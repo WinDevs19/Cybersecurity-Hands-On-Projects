@@ -28,7 +28,7 @@ I checked the extracted output:
 
     cat "$HOME/Downloads/hash1.txt"
 
-![Extracted PDF hash](images/01-hash-extraction.png)
+![Extracted PDF hash](../images/01-hash-extraction.jpg)
 
 ### 3. Run John the Ripper
 I started the password recovery process:
@@ -37,12 +37,12 @@ I started the password recovery process:
 
 John loaded the PDF hash and recovered the password during its default wordlist phase.
 
-![John password recovery result](images/02-password-recovery.png)
+![John password recovery result](../images/02-password-recovery.jpg)
 
 ### 4. Verify the result
 I entered the recovered password into the PDF viewer. The document opened successfully and displayed the training flag.
 
-![Opened PDF showing the lab flag](images/03-unlocked-pdf.png)
+![Opened PDF showing the lab flag](../images/03-unlocked-pdf.jpg)
 
 ## Results
 - Successfully extracted the PDF hash.
